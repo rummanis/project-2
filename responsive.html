@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+2&family=Oswald:wght@500;700&family=Poppins:wght@200&family=Praise&family=Shippori+Antique&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+        .top-players,
+        .top-blogs {
+            display: grid;
+            grid-gap: 30px;
+
+        }
+
+        .top-players {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .top-blogs {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .first,
+        .two {
+            width: 850px;
+            height: 460px;
+            border: 1px solid white;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 10px 15px 20px gray;
+        }
+
+        .two {
+            margin-top: 10px;
+        }
+
+        img {
+            width: 90%;
+        }
+
+        .players-description {
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        body {
+            background-color: royalblue;
+            font-family: 'M PLUS 2', sans-serif;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Praise', cursive;
+            font-family: 'Shippori Antique', sans-serif;
+        }
+
+        .name {
+            margin-left: 5px;
+            margin-right: 10px;
+        }
+
+        .title,
+        .title-two {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        a {
+            display: inline;
+        }
+
+        .filled {
+            color: goldenrod;
+        }
+
+        .unfilled {
+            color: gray;
+        }
+
+        .clk {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Section top players -->
+    <section class="first">
+        <div class="title">
+            <h2>Top Players</h2>
+        </div>
+        <div class="top-players">
+            <div class="players-description">
+                <div class="image">
+                    <img src="leader-board/images/players/player-1.png" alt="">
+                </div>
+                <div class="name">
+                    <h3>Rumman</h3>
+                </div>
+            </div>
+
+            <div class="players-description">
+                <div class="image">
+                    <img src="leader-board/images/players/player-2.png" alt="">
+                </div>
+                <div class="name">
+                    <h3>Shaon</h3>
+                </div>
+            </div>
+
+            <div class="players-description">
+                <div class="image">
+                    <img src="leader-board/images/players/player-3.png" alt="">
+                </div>
+                <div class="name">
+                    <h3>Shaon</h3>
+                </div>
+            </div>
+
+            <div class="players-description">
+                <div class="image">
+                    <img src="leader-board/images/players/player-4.png" alt="">
+                </div>
+                <div class="name">
+                    <h3>Shaon</h3>
+                </div>
+            </div>
+
+            <div class="players-description">
+                <div class="image">
+                    <img src="leader-board/images/players/player-5.png" alt="">
+                </div>
+                <div class="name">
+                    <h3>Shaon</h3>
+                </div>
+            </div>
+
+            <div class="players-description">
+                <div class="image">
+                    <img src="leader-board/images/players/player-6.png" alt="">
+                </div>
+                <div class="name">
+                    <h3>Shaon</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section blogs -->
+    <section class="two">
+        <div class="title-two">
+            <h2>Top Blogs</h2>
+        </div>
+        <div class="top-blogs">
+            <div class="blog-description">
+                <div class="image">
+                    <img src="leader-board/images/blogs/blog-1.png" alt="">
+                </div>
+                <div class="articles">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos itaque repudiandae cumque officiis
+                    <h4>author <span> Shaon</span></h4>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star unfilled"></i>
+                    </p>
+                    <div class="clk"><i class="far fa-clock">publish at 2021 june</i></div>
+                </div>
+            </div>
+
+            <div class="blog-description">
+                <div class="image">
+                    <img src="leader-board/images/blogs/blog-2.png" alt="">
+                </div>
+                <div class="articles">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos itaque repudiandae cumque officiis
+                    <h4>author <span> Salman</span></h4>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star unfilled"></i>
+                    <i class="fas fa-star unfilled"></i>
+                    <i class="fas fa-star unfilled"></i>
+                    </p>
+                    <div class="clk"><i class="far fa-clock">publish at 2021 April</i></div>
+                </div>
+            </div>
+
+            <div class="blog-description">
+                <div class="image">
+                    <img src="leader-board/images/blogs/blog-3.png" alt="">
+                </div>
+                <div class="articles">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos itaque repudiandae cumque officiis
+                    <h4>author <span> rumman</span></h4>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star unfilled"></i>
+                    <i class="fas fa-star unfilled"></i>
+                    </p>
+                    <div class="clk"><i class="far fa-clock">publish at 2021 January</i></div>
+                </div>
+            </div>
+
+            <div class="blog-description">
+                <div class="image">
+                    <img src="leader-board/images/blogs/blog-4.png" alt="">
+                </div>
+                <div class="articles">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos itaque repudiandae cumque officiis
+                    <h4>author <span> Safi</span></h4>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star filled"></i>
+                    <i class="fas fa-star unfilled"></i>
+                    </p>
+                    <div class="clk"><i class="far fa-clock">publish at 2021 December</i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
